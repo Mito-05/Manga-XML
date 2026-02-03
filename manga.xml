@@ -1,13 +1,13 @@
 <?xml version="1.0" encodin="UTF-8" standalone="yes"?>
-<jjk:manga xmlns:pro="http://www.manga.com/mangajjk">
+<jjk:manga xmlns:jjk="http://www.manga.com/mangajjk">
     <jjk:nombre>Jujutsu Kaisen<jjk:nombre/>
     <jjk:emision>Finalizado</jjk:emision>
     <jjk:capitulos>271 capítulos.</jjk:capitulos>
     <jjk:volumenes>30</volumenes>
-    <jjk:ventas>#&gt;150 millones</jjk:ventas>
+    <jjk:ventas>&gt;150 millones</jjk:ventas>
     <jjk:descripcion>En un mundo donde las emociones negativas de los humanos cobran vida como monstruosas "Maldiciones", Yuji Itadori, un estudiante de secundaria con una fuerza física excepcional, cambia su destino para siempre al ingerir un objeto maldito —un dedo putrefacto— para salvar a sus amigos. Este acto desesperado lo convierte en el recipiente de Ryomen Sukuna, el legendario y temido "Rey de las Maldiciones", lo que lleva a los altos mandos de la hechicería a condenarlo a muerte. Sin embargo, bajo la tutela del poderoso Satoru Gojo, Itadori logra un acuerdo mortal: postergar su ejecución para unirse a la Escuela de Hechicería, con la misión de encontrar y consumir todos los dedos restantes de Sukuna para, finalmente, llevarse esa maldad absoluta con él a la tumba.</jjk:descripcion>
 </chiagakuta:manga>
-<gachiagakuta:manga xmlns:pro="http://www.manga.com/manga-chiagakuta">
+<gachiagakuta:manga xmlns:gachiakuta="http://www.manga.com/manga-chiagakuta">
     <gachiagakuta:nombre>Chiagakuta<gachiagakuta:nombre/>
     <gachiagakuta:emision>En emision</gachiagakuta:emision>
     <gachiagakuta:capitulos>165 capítulos.</gachiagakuta:capitulos>
