@@ -1,34 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mangas</title>
+    <title>MangaDB</title>
     <link rel="stylesheet" href="manga.css">
 </head>
 <body>
-    <nav></nav>
+    <nav class="main-nav">
+        <div class="logo">Manga<span>DB</span></div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar manga..." id="mangaSearch">
+            <button type="button">🔍</button>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-button">LOGIN</li>
+        </ul>
+    </nav>
+
     <h1>Shonen de moda</h1>
     <h2>De mis favoritos</h2>
-    <section class="jjk">
-        <ul>
-            <li>Nombre: Jujutsu Kaisen</li>
-            <li>Emisión: Finalizado</li>
-            <li>Capítulos: 271 capítulos.</li>
-            <li>Volúmenes: 30</li>
-            <li>Ventas: &gt;150 millones</li>
-            <li>Descripción: En un mundo donde las emociones negativas de los humanos cobran vida como monstruosas "Maldiciones", Yuji Itadori, un estudiante de secundaria con una fuerza física excepcional, cambia su destino para siempre al ingerir un objeto maldito —un dedo putrefacto— para salvar a sus amigos. Este acto desesperado lo convierte en el recipiente de Ryomen Sukuna, el legendario y temido "Rey de las Maldiciones", lo que lleva a los altos mandos de la hechicería a condenarlo a muerte. Sin embargo, bajo la tutela del poderoso Satoru Gojo, Itadori logra un acuerdo mortal: postergar su ejecución para unirse a la Escuela de Hechicería, con la misión de encontrar y consumir todos los dedos restantes de Sukuna para, finalmente, llevarse esa maldad absoluta con él a la tumba.</li>
-        </ul>
-    </section>
-    <section class="chia">
+
+    <main class="content-wrapper">
+        <section class="jjk">
             <ul>
-            <li>Nombre: Gachiakuta</li>
-            <li>Emisión: En emision</li>
-            <li>Capítulos: 167 capítulos.</li>
-            <li>Volúmenes: 17</li>
-            <li>Ventas: &lt;1 millon</li>
-            <li>En una ciudad flotante donde los descendientes de criminales son marginados, Rudo, un joven que atesora la basura que otros desprecian, es acusado falsamente del asesinato de su padre adoptivo y condenado a ser arrojado al "Abismo", un vertedero insondable donde supuestamente nadie sobrevive. Sin embargo, Rudo despierta en ese infierno tóxico infestado de monstruos de chatarra y descubre que posee un poder único: la capacidad de transformar objetos preciados en armas letales gracias al vínculo emocional que tiene con ellos. Ahora, uniéndose a una organización de guerreros conocida como los "Limpiadores", deberá dominar sus nuevas habilidades para sobrevivir en el inframundo y luchar por volver a la superficie, impulsado por el único deseo de vengarse de la sociedad celestial que lo desechó como si fuera un desperdicio.</li>
-        </ul>
-    </section>
+                <li>Jujutsu Kaisen</li>
+                <li><strong>Emisión:</strong> Finalizado</li>
+                <li><strong>Capítulos:</strong> 271 capítulos.</li>
+                <li><strong>Volúmenes:</strong> 30</li>
+                <li><strong>Ventas:</strong> >150 millones</li>
+                <li>En un mundo donde las emociones negativas cobran vida como "Maldiciones", Yuji Itadori ingiere un objeto maldito para salvar a sus amigos, convirtiéndose en el recipiente de Ryomen Sukuna.</li>
+            </ul>
+        </section>
+
+        <section class="chia">
+            <ul>
+                <li>Gachiakuta</li>
+                <li><strong>Emisión:</strong> En emisión</li>
+                <li><strong>Capítulos:</strong> 167 capítulos.</li>
+                <li><strong>Volúmenes:</strong> 17</li>
+                <li><strong>Ventas:</strong> <1 millón</li>
+                <li>Rudo es arrojado al "Abismo" por un crimen que no cometió. Allí descubre que puede transformar objetos en armas letales gracias al vínculo emocional con ellos.</li>
+            </ul>
+        </section>
+
+        <section class="hp">
+            <ul>
+                <li>Hell's Paradise</li>
+                <li><strong>Emisión:</strong> Finalizado</li>
+                <li><strong>Capítulos:</strong> 127 capítulos.</li>
+                <li><strong>Volúmenes:</strong> 13</li>
+                <li><strong>Ventas:</strong> >25 millones</li>
+                <li>Gabimaru "El Vacío" viaja a una isla legendaria para recuperar el Elíxir de la Inmortalidad y obtener el perdón por sus crímenes pasados.</li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
