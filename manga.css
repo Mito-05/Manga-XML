@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;700&display=swap');
 
-/* Estilos Generales */
+
 body {
     background-color: #f0f0f0;
     background-image: radial-gradient(#000000 1px, transparent 0);
@@ -163,6 +163,9 @@ section:hover {
 
 ul { 
     list-style: none; padding: 0; 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 li:first-child {
