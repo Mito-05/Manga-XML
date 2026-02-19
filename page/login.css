@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+
+    background-image: url('https://res.cloudinary.com/divgcktiw/image/upload/v1771495834/anime-mural-wallpaper-black-and-white-manga-comic-style-45XYZ789-6_w0yh7l.jpg');
+    
+
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: 'Space Grotesk', sans-serif;
+}
+.login-card {
+    background: white;
+    border: 3px solid #000000;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px; /* Sombra sólida */
+    box-sizing: border-box;
+}
+
+/* Enlace Volver */
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Título LOGINDB */
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2.2rem;
+    margin: 0 0 30px 0;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+h2 span {
+    background: #000;
+    color: #fff;
+    padding: 0 10px;
+    margin-left: 4px;
+}
+
+/* Campos del formulario */
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Botón Verde */
+.login-btn {
+    width: 100%;
+    padding: 18px;
+    background: #22c55e; /* Verde de la imagen */
+    border: 3px solid #000;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px #000; /* Sombra inferior del botón */
+    margin-bottom: 15px;
+    transition: 0.1s;
+}
+
+.login-btn:active {
+    transform: translateY(3px);
+    box-shadow: 0px 2px 0px #000;
+}
+
+/* Texto inferior */
+.footer-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.footer-text a {
+    color: blue;
+    text-decoration: underline;
+}
