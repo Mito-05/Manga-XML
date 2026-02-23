@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;700&display=swap');
 
 * {
@@ -13,7 +12,6 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
 }
-
 
 .main-nav {
     display: flex;
@@ -82,15 +80,14 @@ body {
     padding: 10px 25px;
     border-radius: 5px;
     font-weight: bold;
-    cursor: pointer;
     transition: transform 0.2s, background 0.2s;
+    display: inline-block;
 }
 
 .nav-button:hover {
     transform: scale(1.05);
     background: #ff6b81;
 }
-
 
 section {
     padding: 3rem 5%;
@@ -105,31 +102,63 @@ h3 {
     letter-spacing: 1px;
 }
 
-
-section:nth-of-type(1) ul {
+.Type {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Esto es lo que centra las tarjetas */
     list-style: none;
-    gap: 12px;
+    gap: 20px;
 }
 
-section:nth-of-type(1) li a {
-    text-decoration: none;
-    color: #ffffff;
+.Type li {
     background: #1e1e1e;
-    padding: 12px 24px;
-    border-radius: 4px;
-    border-bottom: 3px solid #333;
-    transition: all 0.2s;
-    display: inline-block;
-    font-weight: 600;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 280px;
+    flex-grow: 0;
 }
 
-section:nth-of-type(1) li a:hover {
-    background: #ffffff;
-    color: #000000;
-    border-bottom-color: #ff4757;
-    transform: translateY(-3px);
+.Type li:hover {
+    border-color: #ff4757;
+    transform: translateY(-5px);
+    background: #252525;
+}
+
+.Type li h4 {
+    font-family: 'Bangers', cursive;
+    color: #ff4757;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.Type li p {
+    color: #aaa;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    min-height: 50px;
+}
+
+.Type li input[type="button"] {
+    background: transparent;
+    border: 2px solid #ff4757;
+    color: #ff4757;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    box-shadow: none;
+    width: 100%;
+}
+
+.Type li input[type="button"]:hover {
+    background: #ff4757;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 71, 87, 0.4);
 }
 
 .manga-grid {
@@ -150,22 +179,12 @@ section:nth-of-type(1) li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px; 
 }
 
 .manga-card:hover {
     transform: translateY(-10px);
     border-color: #ff4757;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-}
-
-.manga-card img {
-    width: 100%;
-    height: 300px; 
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 8px 8px 0px #000; 
-    margin-top: 10px; 
 }
 
 .manga-card h4 {
@@ -183,6 +202,14 @@ section:nth-of-type(1) li a:hover {
     color: #fff;
 }
 
+.manga-card img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 8px 8px 0px #000; 
+    margin-top: 10px; 
+}
 
 input[type="button"] {
     background: #ffd32a; 
