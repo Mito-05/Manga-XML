@@ -22,11 +22,11 @@ body {
     border: 3px solid #000000;
     padding: 40px;
     width: 100%;
-    max-width: 400px; /* Sombra sólida */
+    max-width: 400px; 
     box-sizing: border-box;
 }
 
-/* Enlace Volver */
+
 .back-link {
     display: inline-block;
     text-decoration: none;
@@ -41,7 +41,6 @@ body {
     text-decoration: underline;
 }
 
-/* Título LOGINDB */
 h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 2.2rem;
@@ -58,7 +57,6 @@ h2 span {
     margin-left: 4px;
 }
 
-/* Campos del formulario */
 .form-field {
     margin-bottom: 20px;
 }
@@ -82,18 +80,17 @@ h2 span {
     outline: none;
 }
 
-/* Botón Verde */
 .login-btn {
     width: 100%;
     padding: 18px;
-    background: #22c55e; /* Verde de la imagen */
+    background: #22c55e; 
     border: 3px solid #000;
     font-family: 'Archivo Black', sans-serif;
     font-size: 1.1rem;
     font-style: italic;
     text-transform: uppercase;
     cursor: pointer;
-    box-shadow: 0px 5px 0px #000; /* Sombra inferior del botón */
+    box-shadow: 0px 5px 0px #000; 
     margin-bottom: 15px;
     transition: 0.1s;
 }
@@ -103,7 +100,7 @@ h2 span {
     box-shadow: 0px 2px 0px #000;
 }
 
-/* Texto inferior */
+
 .footer-text {
     font-size: 0.9rem;
     font-weight: 700;

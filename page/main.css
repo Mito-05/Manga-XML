@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; 
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #000000;
+    border-bottom: 3px solid #ff4757; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Bangers', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #ff4757;
+    background: #ffffff;
+    padding: 0 8px;
+    margin-left: 4px;
+    border-radius: 4px;
+}
+
+.search-container {
+    display: flex;
+    flex-grow: 0.5;
+    margin: 0 2rem;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff4757;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background 0.3s;
+}
+
+.search-container button:hover {
+    background: #ff6b81;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-button {
+    text-decoration: none;
+    background: #ff4757;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+    background: #ff6b81;
+}
+
+
+section {
+    padding: 3rem 5%;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    border-left: 6px solid #ff4757;
+    padding-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+section:nth-of-type(1) ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 12px;
+}
+
+section:nth-of-type(1) li a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #1e1e1e;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border-bottom: 3px solid #333;
+    transition: all 0.2s;
+    display: inline-block;
+    font-weight: 600;
+}
+
+section:nth-of-type(1) li a:hover {
+    background: #ffffff;
+    color: #000000;
+    border-bottom-color: #ff4757;
+    transform: translateY(-3px);
+}
+
+
+input[type="button"] {
+    background: #ffd32a; 
+    color: #000000;
+    border: none;
+    padding: 18px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 6px 6px 0px #b08d00;
+    transition: all 0.1s;
+}
+
+input[type="button"]:hover {
+    background: #ffdf5e;
+}
+
+input[type="button"]:active {
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 0px #b08d00;
+}
