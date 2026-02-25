@@ -212,6 +212,10 @@ h3 {
 }
 
 input[type="button"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     background: #ffd32a; 
     color: #000000;
     border: none;
@@ -219,10 +223,15 @@ input[type="button"] {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
+    text-decoration: none;
     border-radius: 8px;
     cursor: pointer;
     box-shadow: 6px 6px 0px #b08d00;
     transition: all 0.1s;
+}
+
+a{
+    text-decoration: none;
 }
 
 input[type="button"]:hover {
