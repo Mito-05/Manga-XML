@@ -72,10 +72,13 @@ body {
     font-weight: bold;
     font-size: 0.9rem;
     transition: 0.3s;
+    display: flex;
+    margin-right: 5px;
 }
 .nav-links {
     list-style: none;
 }
+
 .nav-button:hover {
     background: #ff6b81;
     transform: scale(1.05);

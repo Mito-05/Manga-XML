@@ -1,27 +1,27 @@
-<?xml version="1.0" encodin="UTF-8" standalone="yes"?>
-<man:manga xmlns:man="http://www.manga.com/mangaman">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<man:mangas xmlns:man="http://www.manga.com/manga-man">
     <man:manga>
-        <man:nombre>Jujutsu Kaisen<man:nombre/>
+        <man:nombre>Jujutsu Kaisen</man:nombre>
         <man:emision>Finalizado</man:emision>
         <man:capitulos>271 capítulos.</man:capitulos>
-        <man:volumenes>30</volumenes>
+        <man:volumenes>30</man:volumenes>
         <man:ventas>&gt;150 millones</man:ventas>
         <man:descripcion>En un mundo donde las emociones negativas de los humanos cobran vida como monstruosas "Maldiciones", Yuji Itadori, un estudiante de secundaria con una fuerza física excepcional, cambia su destino para siempre al ingerir un objeto maldito —un dedo putrefacto— para salvar a sus amigos. Este acto desesperado lo convierte en el recipiente de Ryomen Sukuna, el legendario y temido "Rey de las Maldiciones", lo que lleva a los altos mandos de la hechicería a condenarlo a muerte. Sin embargo, bajo la tutela del poderoso Satoru Gojo, Itadori logra un acuerdo mortal: postergar su ejecución para unirse a la Escuela de Hechicería, con la misión de encontrar y consumir todos los dedos restantes de Sukuna para, finalmente, llevarse esa maldad absoluta con él a la tumba.</man:descripcion>
     </man:manga>
     <man:manga>
-        <man:nombre>Chiagakuta<man:nombre/>
+        <man:nombre>Gachiakuta</man:nombre>
         <man:emision>En emision</man:emision>
         <man:capitulos>165 capítulos.</man:capitulos>
         <man:volumenes>17 volumenes</man:volumenes>
-        <man:ventas>&lt;1 millon<man:ventas>
-        <man:descripcion>En una ciudad flotante donde los descendientes de criminales son marginados, Rudo, un joven que atesora la basura que otros desprecian, es acusado falsamente del asesinato de su padre adoptivo y condenado a ser arrojado al "Abismo", un vertedero insondable donde supuestamente nadie sobrevive. Sin embargo, Rudo despierta en ese infierno tóxico infestado de monstruos de chatarra y descubre que posee un poder único: la capacidad de transformar objetos preciados en armas letales gracias al vínculo emocional que tiene con ellos. Ahora, uniéndose a una organización de guerreros conocida como los "Limpiadores", deberá dominar sus nuevas habilidades para sobrevivir en el inframundo y luchar por volver a la superficie, impulsado por el único deseo de vengarse de la sociedad celestial que lo desechó como si fuera un desperdicio.<man:descripcion>
+        <man:ventas>&lt;1 millon</man:ventas>
+        <man:descripcion>En una ciudad flotante donde los descendientes de criminales son marginados, Rudo, un joven que atesora la basura que otros desprecian, es acusado falsamente del asesinato de su padre adoptivo y condenado a ser arrojado al "Abismo", un vertedero insondable donde supuestamente nadie sobrevive. Sin embargo, Rudo despierta en ese infierno tóxico infestado de monstruos de chatarra y descubre que posee un poder único: la capacidad de transformar objetos preciados en armas letales gracias al vínculo emocional que tiene con ellos. Ahora, uniéndose a una organización de guerreros conocida como los "Limpiadores", deberá dominar sus nuevas habilidades para sobrevivir en el inframundo y luchar por volver a la superficie, impulsado por el único deseo de vengarse de la sociedad celestial que lo desechó como si fuera un desperdicio.</man:descripcion>
+    </man:manga>
     <man:manga>
-    <man:manga>
-        <man:nombre>Hell's Paradise<man:nombre/>
+        <man:nombre>Hell's Paradise</man:nombre>
         <man:emision>Finalizado</man:emision>
         <man:capitulos>127 capítulos.</man:capitulos>
         <man:volumenes>13 volumenes</man:volumenes>
-        <man:ventas>&gt;25 millones<man:ventas>
-        <man:descripcion>Gabimaru "El Vacío", un ninja de élite de Iwagakure condenado a muerte, recibe una última oportunidad: viajar a una isla legendaria y paradisíaca para recuperar el Elíxir de la Inmortalidad. Sin embargo, no irá solo; acompañado por la verdugo Yamada Asaemon Sagiri, descubrirá que la isla está habitada por deidades grotescas y horrores sobrenaturales que convertirán la misión en una lucha brutal por la supervivencia y la redención.<man:descripcion>
-    <man:manga>
-</man:manga>
+        <man:ventas>&gt;25 millones</man:ventas>
+        <man:descripcion>Gabimaru "El Vacío", un ninja de élite de Iwagakure condenado a muerte, recibe una última oportunidad: viajar a una isla legendaria y paradisíaca para recuperar el Elíxir de la Inmortalidad. Sin embargo, no irá solo; acompañado por la verdugo Yamada Asaemon Sagiri, descubrirá que la isla está habitada por deidades grotescas y horrores sobrenaturales que convertirán la misión en una lucha brutal por la supervivencia y la redención.</man:descripcion>
+    </man:manga>
+</man:mangas>
