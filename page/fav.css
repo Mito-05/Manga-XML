@@ -78,7 +78,9 @@ body {
 .nav-links {
     list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 .nav-button:hover {
     background: #ff6b81;
     transform: scale(1.05);
